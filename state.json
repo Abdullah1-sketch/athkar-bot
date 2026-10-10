@@ -1,0 +1,80 @@
+{
+ "posted": {
+  "2026-10-09:fajr": {
+   "status": "skipped_late",
+   "due": "2026-10-09T04:32:27+03:00"
+  },
+  "2026-10-09:morning": {
+   "status": "skipped_late",
+   "due": "2026-10-09T04:47:31+03:00"
+  },
+  "2026-10-09:friday_sunan": {
+   "status": "skipped_late",
+   "due": "2026-10-09T06:20:12+03:00"
+  },
+  "2026-10-09:duha": {
+   "status": "skipped_late",
+   "due": "2026-10-09T08:45:26+03:00"
+  },
+  "2026-10-09:asr": {
+   "status": "skipped_late",
+   "due": "2026-10-09T15:04:01+03:00"
+  },
+  "2026-10-09:evening": {
+   "status": "skipped_late",
+   "due": "2026-10-09T15:19:27+03:00"
+  },
+  "2026-10-09:maghrib": {
+   "status": "skipped_late",
+   "due": "2026-10-09T17:34:30+03:00"
+  },
+  "2026-10-09:isha": {
+   "status": "skipped_late",
+   "due": "2026-10-09T19:04:39+03:00"
+  },
+  "2026-10-09:mulk": {
+   "status": "skipped_late",
+   "due": "2026-10-09T22:00:43+03:00"
+  },
+  "2026-10-09:witr": {
+   "status": "skipped_late",
+   "due": "2026-10-10T00:52:18+03:00"
+  },
+  "2026-10-10:fajr": {
+   "status": "skipped_late",
+   "due": "2026-10-10T04:32:44+03:00"
+  },
+  "2026-10-10:morning": {
+   "status": "skipped_late",
+   "due": "2026-10-10T04:47:42+03:00"
+  },
+  "2026-10-10:duha": {
+   "status": "skipped_late",
+   "due": "2026-10-10T08:47:24+03:00"
+  },
+  "2026-10-10:dhuhr": {
+   "status": "skipped_late",
+   "due": "2026-10-10T11:42:05+03:00"
+  },
+  "2026-10-10:asr": {
+   "status": "skipped_late",
+   "due": "2026-10-10T15:03:21+03:00"
+  },
+  "2026-10-10:evening": {
+   "status": "skipped_late",
+   "due": "2026-10-10T15:19:26+03:00"
+  },
+  "2026-10-10:maghrib": {
+   "status": "skipped_late",
+   "due": "2026-10-10T17:33:31+03:00"
+  },
+  "2026-10-10:isha": {
+   "status": "skipped_late",
+   "due": "2026-10-10T19:03:43+03:00"
+  },
+  "2026-10-10:mulk": {
+   "status": "skipped_late",
+   "due": "2026-10-10T22:02:00+03:00"
+  }
+ }
+}
