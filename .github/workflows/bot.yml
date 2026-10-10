@@ -44,8 +44,8 @@ jobs:
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
-          # Stays a dry run until the repository variable DRY_RUN is set to "false".
-          DRY_RUN: ${{ vars.DRY_RUN || 'true' }}
+          # Live. Set the repository variable DRY_RUN to "true" to pause posting.
+          DRY_RUN: ${{ vars.DRY_RUN || 'false' }}
           BOT_GIT_CHECKPOINT: "true"
           PYTHONUNBUFFERED: "1"
         run: python -m athkar.bot

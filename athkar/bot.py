@@ -114,7 +114,7 @@ def post(text, image=None):
 def handle(event, state):
     posted = state.setdefault("posted", {})
     entry = posted.get(event["key"])
-    if entry and entry.get("status") not in ("retry",):
+    if entry and entry.get("status") not in ("retry",) + (() if DRY_RUN else ("dry_run",)):
         return
     late = now() - event["at"]
     if late > LATE_LIMIT:
@@ -169,9 +169,10 @@ def run():
     while not STOP and time.monotonic() - began < RUN_SECONDS:
         today = now().astimezone(RIYADH).date()
         events = schedule(today - timedelta(days=1), 3, verses)
+        open_status = (None, "retry") if DRY_RUN else (None, "retry", "dry_run")
         due = [e for e in events
                if e["at"] <= now()
-               and state.get("posted", {}).get(e["key"], {}).get("status") in (None, "retry")]
+               and state.get("posted", {}).get(e["key"], {}).get("status") in open_status]
         for e in due:
             if STOP:
                 break
