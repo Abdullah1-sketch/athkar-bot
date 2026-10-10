@@ -161,7 +161,9 @@ def events_for(d, verses):
         if not exact:
             at = at + jitter(key, 180)
         else:
-            at = at + jitter(key, 50)  # adhan posts: within a minute after the adhan
+            # Adhan posts: 1-2 minutes after the computed adhan, so they never come early
+            # even where official times differ from ours by a minute.
+            at = at + timedelta(seconds=60) + jitter(key, 50)
         ev.append({"key": key, "at": at, "text": text, "image": image, "kind": name})
 
     for p in ("fajr", "dhuhr", "asr", "maghrib", "isha"):
