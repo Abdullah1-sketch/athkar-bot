@@ -125,10 +125,12 @@
    "image": false
   },
   "2026-10-11:evening": {
-   "status": "pending",
+   "status": "sent",
    "due": "2026-10-11T15:17:34+03:00",
    "at": "2026-10-11T12:17:34.001109+00:00",
-   "tries": 1
+   "tries": 1,
+   "tweet": "2109257099834220582",
+   "image": true
   }
  }
 }
