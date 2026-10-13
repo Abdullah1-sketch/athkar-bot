@@ -301,10 +301,12 @@
    "image": true
   },
   "2026-10-13:maghrib": {
-   "status": "pending",
+   "status": "sent",
    "due": "2026-10-13T17:30:02+03:00",
    "at": "2026-10-13T14:30:02.001343+00:00",
-   "tries": 1
+   "tries": 1,
+   "tweet": "2110015222908154059",
+   "image": false
   }
  }
 }
