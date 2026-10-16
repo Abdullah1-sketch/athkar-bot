@@ -500,6 +500,12 @@
    "at": "2026-10-15T21:54:20.001236+00:00",
    "tries": 1,
    "error": "X HTTP 403: {\"detail\":\"Your account is temporarily locked. Please log in to https://x.com to unlock your account.\",\"status\":403,\"title\":\"Forbidden\",\"type\":\"about:blank\"}"
+  },
+  "2026-10-16:fajr": {
+   "status": "pending",
+   "due": "2026-10-16T04:35:18+03:00",
+   "at": "2026-10-16T01:35:18.001164+00:00",
+   "tries": 1
   }
  }
 }
