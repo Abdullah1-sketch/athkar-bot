@@ -25,6 +25,7 @@ STATE = ROOT / "state.json"
 IMAGES = ROOT / "images"
 DRY_RUN = os.getenv("DRY_RUN", "true").lower() != "false"
 RUN_SECONDS = int(os.getenv("RUN_SECONDS", str(5 * 3600 + 30 * 60)))
+PAUSE_ON_LOCK = timedelta(hours=int(os.getenv("PAUSE_ON_LOCK_HOURS", "6")))
 LATE_LIMIT = timedelta(minutes=int(os.getenv("LATE_LIMIT_MINUTES", "20")))
 X_TWEET = "https://api.x.com/2/tweets"
 X_MEDIA_V2 = "https://api.x.com/2/media/upload"
@@ -116,6 +117,12 @@ def handle(event, state):
     entry = posted.get(event["key"])
     if entry and entry.get("status") not in ("retry",) + (() if DRY_RUN else ("dry_run",)):
         return
+    paused = state.get("paused_until")
+    if paused and now() < datetime.fromisoformat(paused):
+        posted[event["key"]] = {"status": "skipped_paused", "due": event["at"].isoformat()}
+        save_state(state, push=False)
+        print(f"SKIP {event['key']}: posting paused (account lock) until {paused}")
+        return
     late = now() - event["at"]
     if late > LATE_LIMIT:
         posted[event["key"]] = {"status": "skipped_late", "due": event["at"].isoformat()}
@@ -136,6 +143,10 @@ def handle(event, state):
     except XRejected as exc:
         retry = (exc.status == 429 or exc.status >= 500) and tries < 4
         posted[event["key"]].update(status="retry" if retry else "rejected", error=str(exc))
+        if exc.status == 403 and "locked" in exc.body.lower():
+            # Hammering a locked account can extend the lock: pause posting.
+            state["paused_until"] = (now() + PAUSE_ON_LOCK).isoformat()
+            print(f"Account locked by X; pausing posts until {state['paused_until']}")
         save_state(state)
         print(f"{event['key']}: rejected by X ({exc}); {'will retry' if retry else 'not retried'}")
         if retry:

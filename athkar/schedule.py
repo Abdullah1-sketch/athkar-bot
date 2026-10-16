@@ -148,6 +148,13 @@ def no_fasting_tomorrow(h_tomorrow):
 
 # ---------------------------------------------------------------- events
 
+# Warm-up for a new account: until this date only the core daily posts go out
+# (morning/evening adhkar, Mulk, Witr) plus the weekly/monthly reminders.
+# The five prayer reminders and Duha return automatically afterwards.
+WARMUP_UNTIL = date(2026, 10, 30)
+WARMUP_SKIP = {"fajr", "dhuhr", "asr", "maghrib", "isha", "duha"}
+
+
 def events_for(d, verses):
     """All posts for Riyadh calendar date d: list of dicts (key, at, text, image)."""
     pt = prayer_times(d)
@@ -159,11 +166,11 @@ def events_for(d, verses):
     def add(name, at, text, image=None, exact=False):
         key = f"{ds}:{name}"
         if not exact:
-            at = at + jitter(key, 180)
+            at = at + jitter(key, 600)  # 0-10 min, so times vary day to day
         else:
             # Adhan posts: 1-2 minutes after the computed adhan, so they never come early
             # even where official times differ from ours by a minute.
-            at = at + timedelta(seconds=60) + jitter(key, 50)
+            at = at + timedelta(seconds=60) + jitter(key, 240)  # 1-5 min after the adhan
         ev.append({"key": key, "at": at, "text": text, "image": image, "kind": name})
 
     for p in ("fajr", "dhuhr", "asr", "maghrib", "isha"):
@@ -208,6 +215,8 @@ def events_for(d, verses):
             continue
         e["text"] = text
         out.append(e)
+    if d < WARMUP_UNTIL:
+        out = [e for e in out if e["kind"] not in WARMUP_SKIP]
     return out
 
 
