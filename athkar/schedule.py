@@ -184,6 +184,8 @@ def events_for(d, verses):
     duha = pt["sunrise"] + (pt["dhuhr"] - pt["sunrise"]) * 0.5
     add("duha", duha, pick(T.DUHA, d))
     add("evening", pt["asr"] + timedelta(minutes=15), pick(T.EVENING, d), "adhkar.jpg")
+    if wd == 4:
+        add("friday_hour", pt["maghrib"] - timedelta(minutes=60), T.FRIDAY_HOUR)
     if wd == 3:
         add("thursday_salawat", pt["maghrib"] + timedelta(minutes=4), T.THURSDAY_SALAWAT)
 
