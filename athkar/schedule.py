@@ -151,7 +151,7 @@ def no_fasting_tomorrow(h_tomorrow):
 # Warm-up for a new account: until this date only the core daily posts go out
 # (morning/evening adhkar, Mulk, Witr) plus the weekly/monthly reminders.
 # The five prayer reminders and Duha return automatically afterwards.
-WARMUP_UNTIL = date(2026, 10, 30)
+WARMUP_UNTIL = date(2026, 10, 1)  # warm-up switched off: full schedule
 WARMUP_SKIP = {"fajr", "dhuhr", "asr", "maghrib", "isha", "duha"}
 
 
@@ -170,7 +170,7 @@ def events_for(d, verses):
         else:
             # Adhan posts: 1-2 minutes after the computed adhan, so they never come early
             # even where official times differ from ours by a minute.
-            at = at + timedelta(seconds=60) + jitter(key, 240)  # 1-5 min after the adhan
+            at = at + timedelta(seconds=60) + jitter(key, 60)  # 1-2 min after the adhan
         ev.append({"key": key, "at": at, "text": text, "image": image, "kind": name})
 
     for p in ("fajr", "dhuhr", "asr", "maghrib", "isha"):
