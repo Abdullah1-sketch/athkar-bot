@@ -204,6 +204,7 @@ def events_for(d, verses):
 
     mulk_at = datetime(d.year, d.month, d.day, 22, 0, tzinfo=RIYADH)
     add("mulk", mulk_at, T.MULK, "mulk.jpg")
+    add("before_sleep", mulk_at + timedelta(minutes=30), T.BEFORE_SLEEP)
 
     # Witr: start of the last third of the night (Maghrib -> next Fajr).
     night = nxt["fajr"] - pt["maghrib"]
