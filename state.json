@@ -552,10 +552,12 @@
    "image": true
   },
   "2026-10-16:friday_hour": {
-   "status": "pending",
+   "status": "sent",
    "due": "2026-10-16T16:33:15+03:00",
    "at": "2026-10-16T13:33:15.001163+00:00",
-   "tries": 1
+   "tries": 1,
+   "tweet": "2111088088030363788",
+   "image": false
   }
  }
 }
