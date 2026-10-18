@@ -768,10 +768,12 @@
    "image": true
   },
   "2026-10-18:before_sleep": {
-   "status": "pending",
+   "status": "sent",
    "due": "2026-10-18T22:32:42+03:00",
    "at": "2026-10-18T19:32:42.000489+00:00",
-   "tries": 1
+   "tries": 1,
+   "tweet": "2111903319723556871",
+   "image": false
   }
  }
 }
