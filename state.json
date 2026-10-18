@@ -744,10 +744,12 @@
    "image": false
   },
   "2026-10-18:fasting": {
-   "status": "pending",
+   "status": "sent",
    "due": "2026-10-18T17:50:18+03:00",
    "at": "2026-10-18T14:50:18.000863+00:00",
-   "tries": 1
+   "tries": 1,
+   "tweet": "2111832251872813164",
+   "image": false
   }
  }
 }
