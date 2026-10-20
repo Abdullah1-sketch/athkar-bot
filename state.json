@@ -880,10 +880,12 @@
    "image": true
   },
   "2026-10-20:maghrib": {
-   "status": "pending",
+   "status": "sent",
    "due": "2026-10-20T17:24:33+03:00",
    "at": "2026-10-20T14:24:33.001178+00:00",
-   "tries": 1
+   "tries": 1,
+   "tweet": "2112550549975408642",
+   "image": false
   }
  }
 }
