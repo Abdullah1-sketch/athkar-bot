@@ -956,10 +956,12 @@
    "image": true
   },
   "2026-10-21:before_sleep": {
-   "status": "pending",
+   "status": "sent",
    "due": "2026-10-21T22:32:44+03:00",
    "at": "2026-10-21T19:32:44.001038+00:00",
-   "tries": 1
+   "tries": 1,
+   "tweet": "2112990491700613371",
+   "image": false
   }
  }
 }
