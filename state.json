@@ -932,10 +932,12 @@
    "image": false
   },
   "2026-10-21:fasting": {
-   "status": "pending",
+   "status": "sent",
    "due": "2026-10-21T17:50:43+03:00",
    "at": "2026-10-21T14:50:43.001100+00:00",
-   "tries": 1
+   "tries": 1,
+   "tweet": "2112919522181067032",
+   "image": false
   }
  }
 }
