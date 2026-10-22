@@ -940,10 +940,12 @@
    "image": false
   },
   "2026-10-22:thursday_salawat": {
-   "status": "pending",
+   "status": "sent",
    "due": "2026-10-22T17:33:01+03:00",
    "at": "2026-10-22T14:33:01.001177+00:00",
-   "tries": 1
+   "tries": 1,
+   "tweet": "2113277453640622174",
+   "image": false
   }
  }
 }
