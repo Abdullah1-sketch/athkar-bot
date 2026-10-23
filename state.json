@@ -964,10 +964,12 @@
    "image": false
   },
   "2026-10-23:white_days": {
-   "status": "pending",
+   "status": "sent",
    "due": "2026-10-23T17:46:11+03:00",
    "at": "2026-10-23T14:46:11.001230+00:00",
-   "tries": 1
+   "tries": 1,
+   "tweet": "2113643156453675269",
+   "image": false
   }
  }
 }
