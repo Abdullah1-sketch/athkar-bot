@@ -948,10 +948,12 @@
    "image": true
   },
   "2026-10-23:friday_hour": {
-   "status": "pending",
+   "status": "sent",
    "due": "2026-10-23T16:29:40+03:00",
    "at": "2026-10-23T13:29:40.001151+00:00",
-   "tries": 1
+   "tries": 1,
+   "tweet": "2113623901351846067",
+   "image": false
   }
  }
 }
