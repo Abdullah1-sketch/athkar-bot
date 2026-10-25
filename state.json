@@ -980,10 +980,12 @@
    "image": false
   },
   "2026-10-25:fasting": {
-   "status": "pending",
+   "status": "sent",
    "due": "2026-10-25T17:41:52+03:00",
    "at": "2026-10-25T14:41:52.001223+00:00",
-   "tries": 1
+   "tries": 1,
+   "tweet": "2114366844190720335",
+   "image": false
   }
  }
 }
