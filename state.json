@@ -943,10 +943,12 @@
    "image": false
   },
   "2026-10-26:morning": {
-   "status": "pending",
+   "status": "sent",
    "due": "2026-10-26T04:55:02+03:00",
    "at": "2026-10-26T01:55:02.000882+00:00",
-   "tries": 1
+   "tries": 1,
+   "tweet": "2114536253005746322",
+   "image": true
   }
  }
 }
