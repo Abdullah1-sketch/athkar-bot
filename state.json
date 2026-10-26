@@ -1,86 +1,5 @@
 {
  "posted": {
-  "2026-10-15:fajr": {
-   "status": "sent",
-   "due": "2026-10-15T04:35:26+03:00",
-   "at": "2026-10-15T01:35:26.001053+00:00",
-   "tries": 1,
-   "tweet": "2110545054012248416",
-   "image": false
-  },
-  "2026-10-15:morning": {
-   "status": "sent",
-   "due": "2026-10-15T04:51:15+03:00",
-   "at": "2026-10-15T01:51:15.001027+00:00",
-   "tries": 1,
-   "tweet": "2110549035581108305",
-   "image": true
-  },
-  "2026-10-15:duha": {
-   "status": "sent",
-   "due": "2026-10-15T08:47:02+03:00",
-   "at": "2026-10-15T05:47:02.000689+00:00",
-   "tries": 1,
-   "tweet": "2110608370726318283",
-   "image": false
-  },
-  "2026-10-15:dhuhr": {
-   "status": "sent",
-   "due": "2026-10-15T11:41:00+03:00",
-   "at": "2026-10-15T08:41:00.000761+00:00",
-   "tries": 1,
-   "tweet": "2110652151810895887",
-   "image": false
-  },
-  "2026-10-15:asr": {
-   "status": "rejected",
-   "due": "2026-10-15T15:00:45+03:00",
-   "at": "2026-10-15T12:00:45.001087+00:00",
-   "tries": 1,
-   "error": "X HTTP 403: {\"detail\":\"Your account is temporarily locked. Please log in to https://x.com to unlock your account.\",\"status\":403,\"title\":\"Forbidden\",\"type\":\"about:blank\"}"
-  },
-  "2026-10-15:evening": {
-   "status": "rejected",
-   "due": "2026-10-15T15:16:49+03:00",
-   "at": "2026-10-15T12:16:49.001118+00:00",
-   "tries": 1,
-   "error": "X HTTP 403: {\"detail\":\"Your account is temporarily locked. Please log in to https://x.com to unlock your account.\",\"status\":403,\"title\":\"Forbidden\",\"type\":\"about:blank\"}"
-  },
-  "2026-10-15:maghrib": {
-   "status": "rejected",
-   "due": "2026-10-15T17:28:13+03:00",
-   "at": "2026-10-15T14:28:13.001082+00:00",
-   "tries": 1,
-   "error": "X HTTP 403: {\"detail\":\"Your account is temporarily locked. Please log in to https://x.com to unlock your account.\",\"status\":403,\"title\":\"Forbidden\",\"type\":\"about:blank\"}"
-  },
-  "2026-10-15:thursday_salawat": {
-   "status": "rejected",
-   "due": "2026-10-15T17:32:29+03:00",
-   "at": "2026-10-15T14:32:29.001008+00:00",
-   "tries": 1,
-   "error": "X HTTP 403: {\"detail\":\"Your account is temporarily locked. Please log in to https://x.com to unlock your account.\",\"status\":403,\"title\":\"Forbidden\",\"type\":\"about:blank\"}"
-  },
-  "2026-10-15:isha": {
-   "status": "rejected",
-   "due": "2026-10-15T18:58:02+03:00",
-   "at": "2026-10-15T15:58:02.001196+00:00",
-   "tries": 1,
-   "error": "X HTTP 403: {\"detail\":\"Your account is temporarily locked. Please log in to https://x.com to unlock your account.\",\"status\":403,\"title\":\"Forbidden\",\"type\":\"about:blank\"}"
-  },
-  "2026-10-15:mulk": {
-   "status": "rejected",
-   "due": "2026-10-15T22:02:53+03:00",
-   "at": "2026-10-15T19:02:53.000836+00:00",
-   "tries": 1,
-   "error": "X HTTP 403: {\"detail\":\"Your account is temporarily locked. Please log in to https://x.com to unlock your account.\",\"status\":403,\"title\":\"Forbidden\",\"type\":\"about:blank\"}"
-  },
-  "2026-10-15:witr": {
-   "status": "rejected",
-   "due": "2026-10-16T00:54:20+03:00",
-   "at": "2026-10-15T21:54:20.001236+00:00",
-   "tries": 1,
-   "error": "X HTTP 403: {\"detail\":\"Your account is temporarily locked. Please log in to https://x.com to unlock your account.\",\"status\":403,\"title\":\"Forbidden\",\"type\":\"about:blank\"}"
-  },
   "2026-10-16:fajr": {
    "status": "rejected",
    "due": "2026-10-16T04:35:18+03:00",
@@ -94,10 +13,6 @@
    "at": "2026-10-16T01:50:14.001144+00:00",
    "tries": 1,
    "error": "X HTTP 403: {\"detail\":\"Your account is temporarily locked. Please log in to https://x.com to unlock your account.\",\"status\":403,\"title\":\"Forbidden\",\"type\":\"about:blank\"}"
-  },
-  "2026-10-15:before_sleep": {
-   "status": "skipped_late",
-   "due": "2026-10-15T22:38:41+03:00"
   },
   "2026-10-16:friday_sunan": {
    "status": "sent",
@@ -1018,6 +933,12 @@
    "tries": 1,
    "tweet": "2114475303988797708",
    "image": false
+  },
+  "2026-10-26:fajr": {
+   "status": "pending",
+   "due": "2026-10-26T04:39:04+03:00",
+   "at": "2026-10-26T01:39:04.001011+00:00",
+   "tries": 1
   }
  }
 }
