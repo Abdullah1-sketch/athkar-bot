@@ -981,10 +981,11 @@
    "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
   },
   "2026-10-27:mulk": {
-   "status": "pending",
+   "status": "rejected",
    "due": "2026-10-27T22:07:38+03:00",
    "at": "2026-10-27T19:07:38.001535+00:00",
-   "tries": 1
+   "tries": 1,
+   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
   }
  }
 }
