@@ -951,10 +951,11 @@
    "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
   },
   "2026-10-29:thursday_salawat": {
-   "status": "pending",
+   "status": "rejected",
    "due": "2026-10-29T17:23:38+03:00",
    "at": "2026-10-29T14:23:38.000705+00:00",
-   "tries": 1
+   "tries": 1,
+   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
   }
  }
 }
