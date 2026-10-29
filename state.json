@@ -942,6 +942,12 @@
    "at": "2026-10-29T12:07:52.000758+00:00",
    "tries": 1,
    "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
+  },
+  "2026-10-29:maghrib": {
+   "status": "pending",
+   "due": "2026-10-29T17:17:16+03:00",
+   "at": "2026-10-29T14:17:16.000699+00:00",
+   "tries": 1
   }
  }
 }
