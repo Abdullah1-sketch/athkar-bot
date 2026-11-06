@@ -813,10 +813,11 @@
    "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
   },
   "2026-11-06:fajr": {
-   "status": "pending",
+   "status": "rejected",
    "due": "2026-11-06T04:45:51+03:00",
    "at": "2026-11-06T01:45:51.000855+00:00",
-   "tries": 1
+   "tries": 1,
+   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
   }
  }
 }
