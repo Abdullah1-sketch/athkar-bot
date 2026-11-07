@@ -1,82 +1,5 @@
 {
  "posted": {
-  "2026-10-27:fajr": {
-   "status": "rejected",
-   "due": "2026-10-27T04:40:10+03:00",
-   "at": "2026-10-27T01:40:10.000723+00:00",
-   "tries": 1,
-   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
-  },
-  "2026-10-27:morning": {
-   "status": "rejected",
-   "due": "2026-10-27T04:56:34+03:00",
-   "at": "2026-10-27T01:56:34.000734+00:00",
-   "tries": 1,
-   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
-  },
-  "2026-10-27:duha": {
-   "status": "rejected",
-   "due": "2026-10-27T08:49:41+03:00",
-   "at": "2026-10-27T05:49:41.000688+00:00",
-   "tries": 1,
-   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
-  },
-  "2026-10-27:dhuhr": {
-   "status": "rejected",
-   "due": "2026-10-27T11:39:45+03:00",
-   "at": "2026-10-27T08:39:45.000669+00:00",
-   "tries": 1,
-   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
-  },
-  "2026-10-27:asr": {
-   "status": "rejected",
-   "due": "2026-10-27T14:53:15+03:00",
-   "at": "2026-10-27T11:53:15.001204+00:00",
-   "tries": 1,
-   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
-  },
-  "2026-10-27:evening": {
-   "status": "rejected",
-   "due": "2026-10-27T15:10:56+03:00",
-   "at": "2026-10-27T12:10:56.001188+00:00",
-   "tries": 1,
-   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
-  },
-  "2026-10-27:maghrib": {
-   "status": "rejected",
-   "due": "2026-10-27T17:18:11+03:00",
-   "at": "2026-10-27T14:18:11.001135+00:00",
-   "tries": 1,
-   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
-  },
-  "2026-10-27:isha": {
-   "status": "rejected",
-   "due": "2026-10-27T18:48:13+03:00",
-   "at": "2026-10-27T15:48:13.001187+00:00",
-   "tries": 1,
-   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
-  },
-  "2026-10-27:mulk": {
-   "status": "rejected",
-   "due": "2026-10-27T22:07:38+03:00",
-   "at": "2026-10-27T19:07:38.001535+00:00",
-   "tries": 1,
-   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
-  },
-  "2026-10-27:before_sleep": {
-   "status": "rejected",
-   "due": "2026-10-27T22:32:06+03:00",
-   "at": "2026-10-27T19:32:06.001445+00:00",
-   "tries": 1,
-   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
-  },
-  "2026-10-27:witr": {
-   "status": "rejected",
-   "due": "2026-10-28T00:59:52+03:00",
-   "at": "2026-10-27T21:59:52.001283+00:00",
-   "tries": 1,
-   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
-  },
   "2026-10-28:fajr": {
    "status": "rejected",
    "due": "2026-10-28T04:40:18+03:00",
@@ -895,6 +818,12 @@
    "at": "2026-11-06T21:57:22.000471+00:00",
    "tries": 1,
    "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
+  },
+  "2026-11-07:fajr": {
+   "status": "pending",
+   "due": "2026-11-07T04:45:15+03:00",
+   "at": "2026-11-07T01:45:15.000840+00:00",
+   "tries": 1
   }
  }
 }
