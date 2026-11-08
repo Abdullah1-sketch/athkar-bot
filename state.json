@@ -839,6 +839,12 @@
    "at": "2026-11-08T08:39:37.001072+00:00",
    "tries": 1,
    "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
+  },
+  "2026-11-08:asr": {
+   "status": "pending",
+   "due": "2026-11-08T14:48:23+03:00",
+   "at": "2026-11-08T11:48:23.000941+00:00",
+   "tries": 1
   }
  }
 }
