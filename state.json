@@ -855,10 +855,11 @@
    "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
   },
   "2026-11-12:thursday_salawat": {
-   "status": "pending",
+   "status": "rejected",
    "due": "2026-11-12T17:14:30+03:00",
    "at": "2026-11-12T14:14:30.000823+00:00",
-   "tries": 1
+   "tries": 1,
+   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
   }
  }
 }
