@@ -1,89 +1,5 @@
 {
  "posted": {
-  "2026-11-04:fajr": {
-   "status": "rejected",
-   "due": "2026-11-04T04:44:37+03:00",
-   "at": "2026-11-04T01:44:37.001063+00:00",
-   "tries": 1,
-   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
-  },
-  "2026-11-04:morning": {
-   "status": "rejected",
-   "due": "2026-11-04T04:59:23+03:00",
-   "at": "2026-11-04T01:59:23.001058+00:00",
-   "tries": 1,
-   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
-  },
-  "2026-11-04:duha": {
-   "status": "rejected",
-   "due": "2026-11-04T08:52:24+03:00",
-   "at": "2026-11-04T05:52:24.001027+00:00",
-   "tries": 1,
-   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
-  },
-  "2026-11-04:dhuhr": {
-   "status": "rejected",
-   "due": "2026-11-04T11:38:33+03:00",
-   "at": "2026-11-04T08:38:33.001037+00:00",
-   "tries": 1,
-   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
-  },
-  "2026-11-04:asr": {
-   "status": "rejected",
-   "due": "2026-11-04T14:50:11+03:00",
-   "at": "2026-11-04T11:50:11.001437+00:00",
-   "tries": 1,
-   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
-  },
-  "2026-11-04:evening": {
-   "status": "rejected",
-   "due": "2026-11-04T15:11:26+03:00",
-   "at": "2026-11-04T12:11:26.001324+00:00",
-   "tries": 1,
-   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
-  },
-  "2026-11-04:maghrib": {
-   "status": "rejected",
-   "due": "2026-11-04T17:13:58+03:00",
-   "at": "2026-11-04T14:13:58.001581+00:00",
-   "tries": 1,
-   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
-  },
-  "2026-11-04:fasting": {
-   "status": "rejected",
-   "due": "2026-11-04T17:38:04+03:00",
-   "at": "2026-11-04T14:38:04.001198+00:00",
-   "tries": 1,
-   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
-  },
-  "2026-11-04:isha": {
-   "status": "rejected",
-   "due": "2026-11-04T18:43:51+03:00",
-   "at": "2026-11-04T15:43:51.000943+00:00",
-   "tries": 1,
-   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
-  },
-  "2026-11-04:mulk": {
-   "status": "rejected",
-   "due": "2026-11-04T22:05:18+03:00",
-   "at": "2026-11-04T19:05:18.000935+00:00",
-   "tries": 1,
-   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
-  },
-  "2026-11-04:before_sleep": {
-   "status": "rejected",
-   "due": "2026-11-04T22:36:44+03:00",
-   "at": "2026-11-04T19:36:44.000945+00:00",
-   "tries": 1,
-   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
-  },
-  "2026-11-04:witr": {
-   "status": "rejected",
-   "due": "2026-11-05T00:57:08+03:00",
-   "at": "2026-11-04T21:57:08.001068+00:00",
-   "tries": 1,
-   "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
-  },
   "2026-11-05:fajr": {
    "status": "rejected",
    "due": "2026-11-05T04:44:24+03:00",
@@ -895,6 +811,12 @@
    "at": "2026-11-14T22:03:35.000816+00:00",
    "tries": 1,
    "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
+  },
+  "2026-11-15:fajr": {
+   "status": "pending",
+   "due": "2026-11-15T04:50:45+03:00",
+   "at": "2026-11-15T01:50:45.001229+00:00",
+   "tries": 1
   }
  }
 }
