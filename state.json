@@ -869,10 +869,12 @@
    "error": "X HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
   },
   "2026-11-18:mulk": {
-   "status": "pending",
+   "status": "sent",
    "due": "2026-11-18T22:04:18+03:00",
    "at": "2026-11-18T19:04:18.001056+00:00",
-   "tries": 1
+   "tries": 1,
+   "tweet": "2123130200938664391",
+   "image": true
   }
  }
 }
