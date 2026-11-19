@@ -857,10 +857,12 @@
    "image": true
   },
   "2026-11-19:maghrib": {
-   "status": "pending",
+   "status": "sent",
    "due": "2026-11-19T17:07:42+03:00",
    "at": "2026-11-19T14:07:42.000884+00:00",
-   "tries": 1
+   "tries": 1,
+   "tweet": "2123417943488798784",
+   "image": false
   }
  }
 }
