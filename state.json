@@ -876,10 +876,12 @@
    "image": true
   },
   "2026-11-20:friday_hour": {
-   "status": "pending",
+   "status": "sent",
    "due": "2026-11-20T16:09:57+03:00",
    "at": "2026-11-20T13:09:57.001052+00:00",
-   "tries": 1
+   "tries": 1,
+   "tweet": "2123765797353062545",
+   "image": false
   }
  }
 }
