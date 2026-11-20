@@ -868,10 +868,12 @@
    "image": false
   },
   "2026-11-20:evening": {
-   "status": "pending",
+   "status": "sent",
    "due": "2026-11-20T15:08:00+03:00",
    "at": "2026-11-20T12:08:00.001079+00:00",
-   "tries": 1
+   "tries": 1,
+   "tweet": "2123750208236625947",
+   "image": true
   }
  }
 }
