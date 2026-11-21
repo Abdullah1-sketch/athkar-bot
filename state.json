@@ -855,10 +855,12 @@
    "image": false
   },
   "2026-11-21:morning": {
-   "status": "pending",
+   "status": "sent",
    "due": "2026-11-21T05:15:41+03:00",
    "at": "2026-11-21T02:15:41.001152+00:00",
-   "tries": 1
+   "tries": 1,
+   "tweet": "2123963535843541026",
+   "image": true
   }
  }
 }
