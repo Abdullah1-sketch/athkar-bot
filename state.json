@@ -887,10 +887,12 @@
    "image": false
   },
   "2026-11-21:evening": {
-   "status": "pending",
+   "status": "sent",
    "due": "2026-11-21T15:05:43+03:00",
    "at": "2026-11-21T12:05:43.917151+00:00",
-   "tries": 1
+   "tries": 1,
+   "tweet": "2124112026616430910",
+   "image": true
   }
  }
 }
